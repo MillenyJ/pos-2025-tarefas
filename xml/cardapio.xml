@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <comida id="c01">
+       <nome>Delícia Tropical</nome>
+       <descricao>Uma sobremesa refrescante feita com frutas tropicais e um toque de creme.</descricao>
+       <ingredientes>Manga, coco, leite condensado, hortelã.</ingredientes>
+       <preco>R$ 12,00</preco>
+       <calorias>250 kcal</calorias>
+       <tempopreparo>15 minutos</tempopreparo>
+    </comida>
+    <comida id="c02">
+        <nome>Sabor Nordestino</nome>
+        <descricao>Prato típico nordestino com ingredientes frescos e tempero especial.</descricao>
+        <ingredientes>Carne de sol, macaxeira, queijo coalho, manteiga de garrafa.</ingredientes>
+        <preco>R$ 25,00</preco>
+        <calorias>400 kcal</calorias>
+        <tempopreparo>40 minutos</tempopreparo>
+     </comida>
+     <comida id="c03">
+        <nome>Energia Verde</nome>
+        <descricao>Um suco detox natural rico em vitaminas e minerais.</descricao>
+        <ingredientes>Espinafre, limão, gengibre, pepino.</ingredientes>
+        <preco>R$ 15,00</preco>
+        <calorias>150 kcal</calorias>
+        <tempopreparo>10 minutos</tempopreparo>
+     </comida>
+     <comida id="c04">
+        <nome>Doce Encanto</nome>
+        <descricao>Uma torta doce com recheio cremoso e cobertura crocante.</descricao>
+        <ingredientes>Chocolate branco, morangos, biscoito amanteigado.</ingredientes>
+        <preco>R$ 18,00</preco>
+        <calorias>350 kcal</calorias>
+        <tempopreparo>30 minutos</tempopreparo>
+     </comida>
+     <comida id="c05">
+        <nome>Explosão de Sabores</nome>
+        <descricao>Um mix de petiscos saudáveis e deliciosos para qualquer momento.</descricao>
+        <ingredientes>Castanhas, frutas secas, mel, aveia.</ingredientes>
+        <preco>R$ 22,00</preco>
+        <calorias>280 kcal</calorias>
+        <tempopreparo>20 minutos</tempopreparo>
+     </comida>
+</cardapio>
