@@ -8,7 +8,7 @@
       <ingredientes>coco</ingredientes>
       <ingredientes>leite condensado</ingredientes>
       <ingredientes>hortelã</ingredientes>
-      <preco>12,00 reais</preco>
+      <preco>&reais;12,00 reais</preco>
       <calorias>250 kcal</calorias>
       <tempoPreparo>15 minutos</tempoPreparo>
    </prato>
@@ -19,7 +19,7 @@
       <ingredientes>macaxeira</ingredientes> 
       <ingredientes>queijo coalho</ingredientes> 
       <ingredientes>manteiga de garrafa</ingredientes>
-      <preco>25,00 reais</preco>
+      <preco>&reais;25,00 reais</preco>
       <calorias>400 kcal</calorias>
       <tempoPreparo>40 minutos</tempoPreparo>
       
@@ -31,7 +31,7 @@
       <ingredientes>limão</ingredientes> 
       <ingredientes>gengibre</ingredientes> 
       <ingredientes>pepino</ingredientes>
-      <preco>15,00 reais</preco>
+      <preco>&reais;15,00 reais</preco>
       <calorias>150 kcal</calorias>
       <tempoPreparo>10 minutos</tempoPreparo>
    </prato>
@@ -41,7 +41,7 @@
       <ingredientes>Chocolate branco</ingredientes> 
       <ingredientes>morangos</ingredientes> 
       <ingredientes>biscoito amanteigado</ingredientes>
-      <preco>18,00 reais</preco>
+      <preco>&reais;18,00</preco>
       <calorias>350 kcal</calorias>
       <tempoPreparo>30 minutos</tempoPreparo>
    </prato>
@@ -52,7 +52,7 @@
       <ingredientes>frutas secas</ingredientes> 
       <ingredientes>mel</ingredientes> 
       <ingredientes>aveia.</ingredientes>
-      <preco>22,00 reais</preco>
+      <preco>&reais;22,00 reais</preco>
       <calorias>280 kcal</calorias>
       <tempoPreparo>20 minutos</tempoPreparo>
    </prato>
