@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="p1">
+    <disciplina>Portugues</disciplina>
+    <professor>
+        <nome></nome>
+        <matrícula></matrícula>
+    </professor>
+    <turma></turma>
+    <data></data>
+    <questões>
+        <questão>
+            <enunciado></enunciado>
+            <alternativas>
+                <alternativa correta="nao"></alternativa>
+                <alternativa correta="sim"></alternativa>
+                <alternativa correta="nao"></alternativa>
+                <alternativa correta="nao"></alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
