@@ -1,60 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cardapio xmlns="http://FotosDeCardapiosGrandes.com"
+<cardapio xmlns="http://cardapio.org"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://FotosDeCardapiosGrandes.com cardapio.xsd">
+    xsi:schemaLocation="http://cardapio.org cardapio.xsd">
 
-   <prato id="p01">
+   <prato id="1">
       <nome>Delícia Tropical</nome>
       <descricao>Uma sobremesa refrescante feita com frutas tropicais e um toque de creme.</descricao>
-      <ingredientes>Manga</ingredientes>
-      <ingredientes>coco</ingredientes>
-      <ingredientes>leite condensado</ingredientes>
-      <ingredientes>hortelã</ingredientes>
-      <preco>&reais;12,00 reais</preco>
-      <calorias>250 kcal</calorias>
+      <ingredientes>
+         <ingrediente>Manga</ingrediente>
+         <ingrediente>coco</ingrediente>
+         <ingrediente>leite condensado</ingrediente>
+         <ingrediente>hortelã</ingrediente>
+      </ingredientes>
+      
+      <preco>12</preco>
+      <calorias>250</calorias>
       <tempoPreparo>15 minutos</tempoPreparo>
    </prato>
-   <prato id="p02">
+   <prato id="2">
       <nome>Sabor Nordestino</nome>
       <descricao>Prato típico nordestino com ingredientes frescos e tempero especial.</descricao>
-      <ingredientes>Carne de sol</ingredientes>
-      <ingredientes>macaxeira</ingredientes> 
-      <ingredientes>queijo coalho</ingredientes> 
-      <ingredientes>manteiga de garrafa</ingredientes>
-      <preco>&reais;25,00 reais</preco>
-      <calorias>400 kcal</calorias>
+      <ingredientes>
+         <ingrediente>Carne de sol</ingrediente>
+         <ingrediente>macaxeira</ingrediente> 
+         <ingrediente>queijo coalho</ingrediente> 
+         <ingrediente>manteiga de garrafa</ingrediente>
+      </ingredientes>
+
+      <preco>25</preco>
+      <calorias>400</calorias>
       <tempoPreparo>40 minutos</tempoPreparo>      
    </prato>
-   <prato id="p03">
+   <prato id="3">
       <nome>Energia Verde</nome>
       <descricao>Um suco detox natural rico em vitaminas e minerais.</descricao>
-      <ingredientes>Espinafre</ingredientes>
-      <ingredientes>limão</ingredientes> 
-      <ingredientes>gengibre</ingredientes> 
-      <ingredientes>pepino</ingredientes>
-      <preco>&reais;15,00 reais</preco>
-      <calorias>150 kcal</calorias>
+      <ingredientes>
+         <ingrediente>Espinafre</ingrediente>
+         <ingrediente>limão</ingrediente> 
+         <ingrediente>gengibre</ingrediente> 
+         <ingrediente>pepino</ingrediente>
+      </ingredientes>
+      
+      <preco>15</preco>
+      <calorias>150</calorias>
       <tempoPreparo>10 minutos</tempoPreparo>
    </prato>
-   <prato id="p04">
+   <prato id="4">
       <nome>Doce Encanto</nome>
       <descricao>Uma torta doce com recheio cremoso e cobertura crocante.</descricao>
-      <ingredientes>Chocolate branco</ingredientes> 
-      <ingredientes>morangos</ingredientes> 
-      <ingredientes>biscoito amanteigado</ingredientes>
-      <preco>&reais;18,00</preco>
-      <calorias>350 kcal</calorias>
+      <ingredientes>
+         <ingrediente>Chocolate branco</ingrediente> 
+         <ingrediente>morangos</ingrediente> 
+         <ingrediente>biscoito amanteigado</ingrediente>
+      </ingredientes>
+      
+      <preco>18</preco>
+      <calorias>350</calorias>
       <tempoPreparo>30 minutos</tempoPreparo>
    </prato>
-   <prato id="p05">
+   <prato id="5">
       <nome>Explosão de Sabores</nome>
       <descricao>Um mix de petiscos saudáveis e deliciosos para qualquer momento.</descricao>
-      <ingredientes>Castanhas</ingredientes> 
-      <ingredientes>frutas secas</ingredientes> 
-      <ingredientes>mel</ingredientes> 
-      <ingredientes>aveia.</ingredientes>
-      <preco>&reais;22,00 reais</preco>
-      <calorias>280 kcal</calorias>
+      <ingredientes>
+         <ingrediente>Castanhas</ingrediente> 
+         <ingrediente>frutas secas</ingrediente> 
+         <ingrediente>mel</ingrediente> 
+         <ingrediente>aveia.</ingrediente>
+      </ingredientes>
+      
+      <preco>22 </preco>
+      <calorias>280</calorias>
       <tempoPreparo>20 minutos</tempoPreparo>
    </prato>
 </cardapio>
