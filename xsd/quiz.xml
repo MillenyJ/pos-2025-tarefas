@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="p1">
+    <disciplina>Português</disciplina>
+    <professor>
+        <nome>Maria Oliveira</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>8º Ano A</turma>
+    <data>27/05/2025</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é a definição de metáfora?</enunciado>
+            <pontuação>40</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Uso de palavras com significado oposto.</alternativa>
+                <alternativa correta="sim">Figura de linguagem que compara dois elementos sem usar "como".</alternativa>
+                <alternativa correta="nao">Expressão que imita o som das coisas.</alternativa>
+                <alternativa correta="nao">Forma de repetição de palavras.</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a função da crase na língua portuguesa?</enunciado>
+            <pontuação>15</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Indicar plural de palavras.</alternativa>
+                <alternativa correta="sim">Fusão da preposição "a" com o artigo feminino "a".</alternativa>
+                <alternativa correta="nao">Destacar palavras importantes.</alternativa>
+                <alternativa correta="nao">Substituir o uso de vírgulas.</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a função do substantivo em uma frase?</enunciado>
+            <pontuação>10</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Indicar ação do sujeito.</alternativa>
+                <alternativa correta="sim">Nomear seres, objetos, sentimentos ou lugares.</alternativa>
+                <alternativa correta="nao">Conectar palavras em uma oração.</alternativa>
+                <alternativa correta="nao">Modificar o verbo principal.</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual dessas frases contém um verbo no futuro do presente?</enunciado>
+            <pontuação>15</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Ele estudou bastante para a prova.</alternativa>
+                <alternativa correta="nao">Ela está lendo um livro agora.</alternativa>
+                <alternativa correta="sim">Amanhã viajaremos para o interior.</alternativa>
+                <alternativa correta="nao">Ontem fomos ao teatro.</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>O que caracteriza uma oração subordinada adverbial?</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Expressar uma ação principal.</alternativa>
+                <alternativa correta="nao">Apresentar um sujeito e um predicado completos.</alternativa>
+                <alternativa correta="sim">Desempenhar a função de um advérbio na oração principal.</alternativa>
+                <alternativa correta="nao">Não possuir verbo conjugado.</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>

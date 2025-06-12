@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://FotosDeCardapiosGrandes.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://FotosDeCardapiosGrandes.com cardapio.xsd">
+
+   <prato id="p01">
+      <nome>Delícia Tropical</nome>
+      <descricao>Uma sobremesa refrescante feita com frutas tropicais e um toque de creme.</descricao>
+      <ingredientes>Manga</ingredientes>
+      <ingredientes>coco</ingredientes>
+      <ingredientes>leite condensado</ingredientes>
+      <ingredientes>hortelã</ingredientes>
+      <preco>&reais;12,00 reais</preco>
+      <calorias>250 kcal</calorias>
+      <tempoPreparo>15 minutos</tempoPreparo>
+   </prato>
+   <prato id="p02">
+      <nome>Sabor Nordestino</nome>
+      <descricao>Prato típico nordestino com ingredientes frescos e tempero especial.</descricao>
+      <ingredientes>Carne de sol</ingredientes>
+      <ingredientes>macaxeira</ingredientes> 
+      <ingredientes>queijo coalho</ingredientes> 
+      <ingredientes>manteiga de garrafa</ingredientes>
+      <preco>&reais;25,00 reais</preco>
+      <calorias>400 kcal</calorias>
+      <tempoPreparo>40 minutos</tempoPreparo>      
+   </prato>
+   <prato id="p03">
+      <nome>Energia Verde</nome>
+      <descricao>Um suco detox natural rico em vitaminas e minerais.</descricao>
+      <ingredientes>Espinafre</ingredientes>
+      <ingredientes>limão</ingredientes> 
+      <ingredientes>gengibre</ingredientes> 
+      <ingredientes>pepino</ingredientes>
+      <preco>&reais;15,00 reais</preco>
+      <calorias>150 kcal</calorias>
+      <tempoPreparo>10 minutos</tempoPreparo>
+   </prato>
+   <prato id="p04">
+      <nome>Doce Encanto</nome>
+      <descricao>Uma torta doce com recheio cremoso e cobertura crocante.</descricao>
+      <ingredientes>Chocolate branco</ingredientes> 
+      <ingredientes>morangos</ingredientes> 
+      <ingredientes>biscoito amanteigado</ingredientes>
+      <preco>&reais;18,00</preco>
+      <calorias>350 kcal</calorias>
+      <tempoPreparo>30 minutos</tempoPreparo>
+   </prato>
+   <prato id="p05">
+      <nome>Explosão de Sabores</nome>
+      <descricao>Um mix de petiscos saudáveis e deliciosos para qualquer momento.</descricao>
+      <ingredientes>Castanhas</ingredientes> 
+      <ingredientes>frutas secas</ingredientes> 
+      <ingredientes>mel</ingredientes> 
+      <ingredientes>aveia.</ingredientes>
+      <preco>&reais;22,00 reais</preco>
+      <calorias>280 kcal</calorias>
+      <tempoPreparo>20 minutos</tempoPreparo>
+   </prato>
+</cardapio>
