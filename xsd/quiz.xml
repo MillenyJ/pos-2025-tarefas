@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE quiz SYSTEM "quiz.dtd">
-<quiz versao="p1">
+<quiz versao="1" xmlns="http://quiz.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://quiz.org 
+                           quiz.xsd">
+
     <disciplina>Português</disciplina>
     <professor>
         <nome>Maria Oliveira</nome>
@@ -60,4 +63,5 @@
             </alternativas>
         </questão>
     </questões>
+    
 </quiz>
