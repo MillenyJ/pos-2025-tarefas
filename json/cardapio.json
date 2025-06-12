@@ -1,0 +1,38 @@
+{"cardapio":[
+     {"prato" : {"nome":"Delícia Tropical",
+        "id_prato":1,
+        "descricao":"Uma sobremesa refrescante feita com frutas tropicais e um toque de creme.",
+        "ingredientes":{"ingrediente":["Manga","coco"]},
+        "preco": "",
+        "calorias":"",
+        "tempoPreparo":""}},
+
+    {"prato" : {"id_prato":2,
+    "descricao":"",
+    "ingredientes":{"ingrediente":[""]},
+    "preco": "",
+    "calorias":"",
+    "tempoPreparo":""}},
+
+    {"prato" : {"id_prato":3,
+    "descricao":"",
+    "ingredientes":{"ingrediente":[""]},
+    "preco": "",
+    "calorias":"",
+    "tempoPreparo":""}},
+
+    {"prato" : {"id_prato":4,
+    "descricao":"",
+    "ingredientes":{"ingrediente":[""]},
+    "preco": "",
+    "calorias":"",
+    "tempoPreparo":""}},
+
+    {"prato" : {"id_prato":5,
+    "descricao":"",
+    "ingredientes":{"ingrediente":[""]},
+    "preco": "",
+    "calorias":"",
+    "tempoPreparo":""}}
+]
+}
