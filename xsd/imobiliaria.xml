@@ -1,121 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE imobiliaria[
-<!ELEMENT imobiliaria (imovel+)>
-<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
-<!ELEMENT descricao (#PCDATA)>
-<!ELEMENT proprietario (nome, (email|telefone)+)>
-<!ELEMENT valor (#PCDATA)>
-<!ELEMENT nome (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT telefone (#PCDATA)>
-<!ELEMENT endereco (rua, bairro, cidade, número?)>
-<!ELEMENT rua (#PCDATA)>
-<!ELEMENT bairro (#PCDATA)>
-<!ELEMENT cidade (#PCDATA)>
-<!ELEMENT número (#PCDATA)>
-<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
-<!ELEMENT tamanho (#PCDATA)>
-<!ELEMENT numQuartos (#PCDATA)>
-<!ELEMENT numBanheiros (#PCDATA)>
-]>
-<imobiliaria>
+<imobiliaria xmlns="http://imobiliaria.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://imobiliaria.org 
+                           imobiliaria.xsd">
+    
     <imovel>
         <descricao>Casa espaçosa em área rural, com jardim e lago.</descricao>
         <proprietario>
             <nome>Maria Souza</nome>
-            <email>maria.souza@email.com</email>
             <telefone>+55 31 97777-7777</telefone>
+            <email>maria.souza@email.com</email>
         </proprietario>
         <endereco>
             <rua>Estrada das Palmeiras</rua>
+            <numero>98</numero>
             <bairro>Zona Rural</bairro>
             <cidade>Belo Horizonte</cidade>
         </endereco>
         <caracteristicas>
-            <tamanho>300m²</tamanho>
+            <tamanho>300</tamanho>
             <numQuartos>3</numQuartos>
             <numBanheiros>2</numBanheiros>
         </caracteristicas>
         <valor>R$ 600.000,00</valor>
+        <tamanho>89</tamanho>
     </imovel>
     <imovel>
         <descricao>Apartamento com vista para o mar, completamente mobiliado.</descricao>
         <proprietario>
             <nome>João Silva</nome>
-            <email>joao.silva@email.com</email>
             <telefone>+55 21 98888-8888</telefone>
+            <email>joao.silva@email.com</email>
         </proprietario>
         <endereco>
             <rua>Avenida Atlântica</rua>
+            <numero>74</numero>
             <bairro>Copacabana</bairro>
             <cidade>Rio de Janeiro</cidade>
-            <número>1023</número>
         </endereco>
         <caracteristicas>
-            <tamanho>80m²</tamanho>
+            <tamanho>80</tamanho>
             <numQuartos>2</numQuartos>
             <numBanheiros>2</numBanheiros>
         </caracteristicas>
         <valor>R$ 950.000,00</valor>
+        <tamanho>54</tamanho>
     </imovel>
     <imovel>
         <descricao>Kitnet compacta e prática, ideal para estudantes universitários.</descricao>
         <proprietario>
             <nome>Carlos Mendes</nome>
-            <email>carlos.mendes@email.com</email>
             <telefone>+55 11 96666-6666</telefone>
+            <email>carlos.mendes@email.com</email>
         </proprietario>
         <endereco>
             <rua>Rua dos Acadêmicos</rua>
+            <numero>45</numero>
             <bairro>Centro</bairro>
             <cidade>São Paulo</cidade>
-            <número>45</número>
         </endereco>
         <caracteristicas>
-            <tamanho>35m²</tamanho>
+            <tamanho>35</tamanho>
             <numQuartos>1</numQuartos>
             <numBanheiros>1</numBanheiros>
         </caracteristicas>
         <valor>R$ 200.000,00</valor>
+        <tamanho>400</tamanho>
     </imovel>
     <imovel>
         <descricao>Sobrado espaçoso em bairro tranquilo, com área de lazer.</descricao>
         <proprietario>
             <nome>Ana Ferreira</nome>
-            <email>ana.ferreira@email.com</email>
             <telefone>+55 44 95555-5555</telefone>
+            <email>ana.ferreira@email.com</email>
         </proprietario>
         <endereco>
             <rua>Rua das Acácias</rua>
+            <numero>88</numero>
             <bairro>Jardim das Rosas</bairro>
             <cidade>Curitiba</cidade>
-            <número>88</número>
         </endereco>
         <caracteristicas>
-            <tamanho>150m²</tamanho>
+            <tamanho>150</tamanho>
             <numQuartos>4</numQuartos>
             <numBanheiros>3</numBanheiros>
         </caracteristicas>
         <valor>R$ 750.000,00</valor>
+        <tamanho>600</tamanho>
     </imovel>
     <imovel>
         <descricao>Loft amplo em estilo industrial, localizado em região central.</descricao>
         <proprietario>
             <nome>Felipe Rocha</nome>
-            <email>felipe.rocha@email.com</email>
             <telefone>+55 19 94444-4444</telefone>
+            <email>felipe.rocha@email.com</email>
         </proprietario>
         <endereco>
             <rua>Rua das Indústrias</rua>
+            <numero>77</numero>
             <bairro>Distrito Comercial</bairro>
             <cidade>Campinas</cidade>
-            <número>77</número>
         </endereco>
         <caracteristicas>
-            <tamanho>120m²</tamanho>
+            <tamanho>120</tamanho>
             <numQuartos>1</numQuartos>
             <numBanheiros>1</numBanheiros>
         </caracteristicas>
         <valor>R$ 480.000,00</valor>
+        <tamanho>80</tamanho>
     </imovel>
 </imobiliaria>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:i="http://imobiliaria.org" targetNamespace="http://imorbiliaria.org" elementFormDefault="qualified">
+    xmlns:i="http://imobiliaria.org" targetNamespace="http://imobiliaria.org" elementFormDefault="qualified">
 
     <element name="imobiliaria">
         <complexType>
