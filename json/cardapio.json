@@ -1,38 +1,43 @@
 {"cardapio":[
-     {"prato" : {"nome":"Delícia Tropical",
-        "id_prato":1,
-        "descricao":"Uma sobremesa refrescante feita com frutas tropicais e um toque de creme.",
-        "ingredientes":{"ingrediente":["Manga","coco"]},
-        "preco": "",
-        "calorias":"",
-        "tempoPreparo":""}},
-
-    {"prato" : {"id_prato":2,
-    "descricao":"",
-    "ingredientes":{"ingrediente":[""]},
-    "preco": "",
-    "calorias":"",
-    "tempoPreparo":""}},
-
-    {"prato" : {"id_prato":3,
-    "descricao":"",
-    "ingredientes":{"ingrediente":[""]},
-    "preco": "",
-    "calorias":"",
-    "tempoPreparo":""}},
-
-    {"prato" : {"id_prato":4,
-    "descricao":"",
-    "ingredientes":{"ingrediente":[""]},
-    "preco": "",
-    "calorias":"",
-    "tempoPreparo":""}},
-
-    {"prato" : {"id_prato":5,
-    "descricao":"",
-    "ingredientes":{"ingrediente":[""]},
-    "preco": "",
-    "calorias":"",
-    "tempoPreparo":""}}
+  {"prato": {
+    "id_prato": 1,
+    "descricao": "Lasanha à bolonhesa com queijo gratinado",
+    "ingredientes": {"ingrediente": ["massa de lasanha", "molho bolonhesa", "queijo", "presunto"]},
+    "preco": "R$ 28,90",
+    "calorias": "720 kcal",
+    "tempoPreparo": "40 minutos"
+  }},
+  {"prato": {
+    "id_prato": 2,
+    "descricao": "Salada tropical com frango grelhado",
+    "ingredientes": {"ingrediente": ["alface", "manga", "frango grelhado", "molho cítrico"]},
+    "preco": "R$ 22,50",
+    "calorias": "340 kcal",
+    "tempoPreparo": "15 minutos"
+  }},
+  {"prato": {
+    "id_prato": 3,
+    "descricao": "Risoto de cogumelos",
+    "ingredientes": {"ingrediente": ["arroz arbório", "cogumelos", "parmesão", "cebola", "vinho branco"]},
+    "preco": "R$ 26,00",
+    "calorias": "510 kcal",
+    "tempoPreparo": "35 minutos"
+  }},
+  {"prato": {
+    "id_prato": 4,
+    "descricao": "Feijoada tradicional brasileira",
+    "ingredientes": {"ingrediente": ["feijão preto", "carne seca", "linguiça", "arroz", "couve"]},
+    "preco": "R$ 31,90",
+    "calorias": "850 kcal",
+    "tempoPreparo": "1 hora e 20 minutos"
+  }},
+  {"prato": {
+    "id_prato": 5,
+    "descricao": "Panqueca de banana com mel",
+    "ingredientes": {"ingrediente": ["banana", "farinha", "ovos", "mel", "leite"]},
+    "preco": "R$ 18,00",
+    "calorias": "390 kcal",
+    "tempoPreparo": "20 minutos"
+  }}
 ]
 }
