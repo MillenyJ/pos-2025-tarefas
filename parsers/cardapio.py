@@ -2,13 +2,11 @@ from xml.dom.minidom import parse
 
 dom = parse("parsers/cardapio.xml")
 
-# Elemento raiz do XML (cardapio)
+
 cardapio = dom.documentElement
 
-# Recebe uma lista dos elementos com tag "prato"
 pratos = cardapio.getElementsByTagName('prato')
 
-# Acessa as informações de cada prato
 for prato in pratos:
     id = prato.getAttribute('id')
 
