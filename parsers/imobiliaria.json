@@ -2,104 +2,109 @@
   "imobiliaria": {
     "imoveis": [
       {
-        "descricao": "Apartamento moderno com vista para o mar",
+        "descricao": "Casa espaçosa em área rural, com jardim e lago.",
         "proprietario": {
-          "nome": "Ana Souza",
-          "telefone": ["84999887766", "84988665544"],
-          "email": "ana.souza@email.com"
+          "nome": "Maria Souza",
+          "telefones": [
+            "+55 31 97777-7777"
+          ],
+          "email": "maria.souza@email.com"
         },
         "endereco": {
-          "rua": "Av. Beira Mar",
-          "numero": 1234,
-          "bairro": "Praia Bela",
-          "cidade": "Natal"
+          "rua": "Estrada das Palmeiras",
+          "bairro": "Zona Rural",
+          "cidade": "Belo Horizonte"
         },
         "caracteristicas": {
-          "tamanho": 95,
+          "tamanho": "300m²",
           "numQuartos": 3,
           "numBanheiros": 2
         },
-        "valor": "R$ 550.000,00"
+        "valor": "R$ 600.000,00"
       },
       {
-        "descricao": "Casa térrea com jardim amplo",
+        "descricao": "Apartamento com vista para o mar, completamente mobiliado.",
         "proprietario": {
-          "nome": "Carlos Menezes",
-          "telefone": ["84996443322", "84988771234"],
-          "email": "carlos.menezes@email.com"
+          "nome": "João Silva",
+          "telefones": [
+            "+55 21 98888-8888"
+          ],
+          "email": "joao.silva@email.com"
         },
         "endereco": {
-          "rua": "Rua das Flores",
-          "numero": 89,
-          "bairro": "Jardins",
-          "cidade": "Parnamirim"
+          "rua": "Avenida Atlântica",
+          "bairro": "Copacabana",
+          "cidade": "Rio de Janeiro"
         },
         "caracteristicas": {
-          "tamanho": 150,
-          "numQuartos": 4,
-          "numBanheiros": 3
+          "tamanho": "80m²",
+          "numQuartos": 2,
+          "numBanheiros": 2
         },
-        "valor": "R$ 680.000,00"
+        "valor": "R$ 950.000,00"
       },
       {
-        "descricao": "Kitnet mobiliada próxima à universidade",
+        "descricao": "Kitnet compacta e prática, ideal para estudantes universitários.",
         "proprietario": {
-          "nome": "Fernanda Lima",
-          "telefone": ["84998112233", "84999664422"],
-          "email": "fernanda.lima@email.com"
+          "nome": "Carlos Mendes",
+          "telefones": [
+            "+55 11 96666-6666"
+          ],
+          "email": "carlos.mendes@email.com"
         },
         "endereco": {
-          "rua": "Rua Acadêmica",
-          "numero": 221,
+          "rua": "Rua dos Acadêmicos",
           "bairro": "Centro",
-          "cidade": "Mossoró"
+          "cidade": "São Paulo"
         },
         "caracteristicas": {
-          "tamanho": 35,
+          "tamanho": "35m²",
           "numQuartos": 1,
           "numBanheiros": 1
         },
-        "valor": "R$ 130.000,00"
+        "valor": "R$ 200.000,00"
       },
       {
-        "descricao": "Cobertura duplex com piscina privativa",
+        "descricao": "Sobrado espaçoso em bairro tranquilo, com área de lazer.",
         "proprietario": {
-          "nome": "João Batista",
-          "telefone": ["84997775533", "84999889977"],
-          "email": "joao.batista@email.com"
+          "nome": "Ana Ferreira",
+          "telefones": [
+            "+55 44 95555-5555"
+          ],
+          "email": "ana.ferreira@email.com"
         },
         "endereco": {
-          "rua": "Rua Alto do Sol",
-          "numero": 456,
-          "bairro": "Lagoa Nova",
-          "cidade": "Natal"
+          "rua": "Rua das Acácias",
+          "bairro": "Jardim das Rosas",
+          "cidade": "Curitiba"
         },
         "caracteristicas": {
-          "tamanho": 210,
+          "tamanho": "150m²",
           "numQuartos": 4,
-          "numBanheiros": 4
+          "numBanheiros": 3
         },
-        "valor": "R$ 1.250.000,00"
+        "valor": "R$ 750.000,00"
       },
       {
-        "descricao": "Chalé rústico em área rural",
+        "descricao": "Loft amplo em estilo industrial, localizado em região central.",
         "proprietario": {
-          "nome": "Lucas Ferreira",
-          "telefone": ["84996554477", "84999998888"],
-          "email": "lucas.ferreira@email.com"
+          "nome": "Felipe Rocha",
+          "telefones": [
+            "+55 19 94444-4444"
+          ],
+          "email": "felipe.rocha@email.com"
         },
         "endereco": {
-          "rua": "Estrada do Sertão",
-          "numero": 12,
-          "bairro": "Zona Rural",
-          "cidade": "São Pedro"
+          "rua": "Rua das Indústrias",
+          "bairro": "Distrito Comercial",
+          "cidade": "Campinas"
         },
         "caracteristicas": {
-          "tamanho": 70,
-          "numQuartos": 2,
+          "tamanho": "120m²",
+          "numQuartos": 1,
           "numBanheiros": 1
         },
-        "valor": "R$ 180.000,00"
+        "valor": "R$ 480.000,00"
       }
     ]
   }
