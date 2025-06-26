@@ -1,0 +1,106 @@
+{
+  "imobiliaria": {
+    "imoveis": [
+      {
+        "descricao": "Apartamento moderno com vista para o mar",
+        "proprietario": {
+          "nome": "Ana Souza",
+          "telefone": ["84999887766", "84988665544"],
+          "email": "ana.souza@email.com"
+        },
+        "endereco": {
+          "rua": "Av. Beira Mar",
+          "numero": 1234,
+          "bairro": "Praia Bela",
+          "cidade": "Natal"
+        },
+        "caracteristicas": {
+          "tamanho": 95,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": "R$ 550.000,00"
+      },
+      {
+        "descricao": "Casa térrea com jardim amplo",
+        "proprietario": {
+          "nome": "Carlos Menezes",
+          "telefone": ["84996443322", "84988771234"],
+          "email": "carlos.menezes@email.com"
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "numero": 89,
+          "bairro": "Jardins",
+          "cidade": "Parnamirim"
+        },
+        "caracteristicas": {
+          "tamanho": 150,
+          "numQuartos": 4,
+          "numBanheiros": 3
+        },
+        "valor": "R$ 680.000,00"
+      },
+      {
+        "descricao": "Kitnet mobiliada próxima à universidade",
+        "proprietario": {
+          "nome": "Fernanda Lima",
+          "telefone": ["84998112233", "84999664422"],
+          "email": "fernanda.lima@email.com"
+        },
+        "endereco": {
+          "rua": "Rua Acadêmica",
+          "numero": 221,
+          "bairro": "Centro",
+          "cidade": "Mossoró"
+        },
+        "caracteristicas": {
+          "tamanho": 35,
+          "numQuartos": 1,
+          "numBanheiros": 1
+        },
+        "valor": "R$ 130.000,00"
+      },
+      {
+        "descricao": "Cobertura duplex com piscina privativa",
+        "proprietario": {
+          "nome": "João Batista",
+          "telefone": ["84997775533", "84999889977"],
+          "email": "joao.batista@email.com"
+        },
+        "endereco": {
+          "rua": "Rua Alto do Sol",
+          "numero": 456,
+          "bairro": "Lagoa Nova",
+          "cidade": "Natal"
+        },
+        "caracteristicas": {
+          "tamanho": 210,
+          "numQuartos": 4,
+          "numBanheiros": 4
+        },
+        "valor": "R$ 1.250.000,00"
+      },
+      {
+        "descricao": "Chalé rústico em área rural",
+        "proprietario": {
+          "nome": "Lucas Ferreira",
+          "telefone": ["84996554477", "84999998888"],
+          "email": "lucas.ferreira@email.com"
+        },
+        "endereco": {
+          "rua": "Estrada do Sertão",
+          "numero": 12,
+          "bairro": "Zona Rural",
+          "cidade": "São Pedro"
+        },
+        "caracteristicas": {
+          "tamanho": 70,
+          "numQuartos": 2,
+          "numBanheiros": 1
+        },
+        "valor": "R$ 180.000,00"
+      }
+    ]
+  }
+}

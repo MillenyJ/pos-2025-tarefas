@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria[
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT proprietario (nome, (email|telefone)+)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, número?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT número (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        <descricao>Casa espaçosa em área rural, com jardim e lago.</descricao>
+        <proprietario>
+            <nome>Maria Souza</nome>
+            <email>maria.souza@email.com</email>
+            <telefone>+55 31 97777-7777</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada das Palmeiras</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Belo Horizonte</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>300m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 600.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Apartamento com vista para o mar, completamente mobiliado.</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <email>joao.silva@email.com</email>
+            <telefone>+55 21 98888-8888</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Atlântica</rua>
+            <bairro>Copacabana</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <número>1023</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 950.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Kitnet compacta e prática, ideal para estudantes universitários.</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <email>carlos.mendes@email.com</email>
+            <telefone>+55 11 96666-6666</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua dos Acadêmicos</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <número>45</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 200.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Sobrado espaçoso em bairro tranquilo, com área de lazer.</descricao>
+        <proprietario>
+            <nome>Ana Ferreira</nome>
+            <email>ana.ferreira@email.com</email>
+            <telefone>+55 44 95555-5555</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Acácias</rua>
+            <bairro>Jardim das Rosas</bairro>
+            <cidade>Curitiba</cidade>
+            <número>88</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 750.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Loft amplo em estilo industrial, localizado em região central.</descricao>
+        <proprietario>
+            <nome>Felipe Rocha</nome>
+            <email>felipe.rocha@email.com</email>
+            <telefone>+55 19 94444-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Indústrias</rua>
+            <bairro>Distrito Comercial</bairro>
+            <cidade>Campinas</cidade>
+            <número>77</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 480.000,00</valor>
+    </imovel>
+</imobiliaria>
