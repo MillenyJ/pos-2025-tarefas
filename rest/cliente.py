@@ -1,45 +1,52 @@
+from users import UserAPI
 import argparse
-import users_wrapper as users
+import json
 
-def main():
-    parser = argparse.ArgumentParser(description="Gerenciar usuários da API")
-    subparsers = parser.add_subparsers(dest="comando")
+api = UserAPI(base_url="https://jsonplaceholder.typicode.com/users")
 
-    subparsers.add_parser("list")
+parser = argparse.ArgumentParser(description="CLI para gerenciar usuários (JSONPlaceholder)")
 
-    read_parser = subparsers.add_parser("read")
-    read_parser.add_argument("id")
+parser.add_argument("action", choices=["list", "create", "read", "update", "delete"], help="Ação a realizar")
+parser.add_argument("--id", help="ID do usuário")
+parser.add_argument("--name", type=str, help="Nome do usuário (para create ou update)")
+parser.add_argument("--email", type=str, help="Email do usuário (para create ou update)")
+args = parser.parse_args()
 
-    create_parser = subparsers.add_parser("create")
-    create_parser.add_argument("name")
-    create_parser.add_argument("email")
+if True:
+    if args.action == "list":
+        users = api.list()
+        for user in users:
+            print(f"{user['id']}: {user['name']} - {user['email']}")
 
-    update_parser = subparsers.add_parser("update")
-    update_parser.add_argument("id")
-    update_parser.add_argument("name")
-    update_parser.add_argument("email")
+    elif args.action == "read":
+        if args.id is None:
+            print("Erro: --id é necessário para ler um usuário.")
+        else:
+            user = api.read(args.id)
+            print(user)
 
-    delete_parser = subparsers.add_parser("delete")
-    delete_parser.add_argument("id")
+    elif args.action == "create":
+        if not args.name or not args.email:
+            print("Erro: --name e --email são obrigatórios para criar um usuário.")
+        else:
+            new_user = {"name": args.name, "email": args.email}
+            user = api.create(new_user)
+            print("Usuário criado:", user)
 
-    args = parser.parse_args()
+    elif args.action == "update":
+        if not args.id or not args.name or not args.email:
+            print("Erro: --id, --name e --email são obrigatórios para atualizar um usuário.")
+        else:
+            updated_user = {"name": args.name, "email": args.email}
+            user = api.update(args.id, updated_user)
+            print("Usuário atualizado:", user)
 
-    if args.comando == "list":
-        print(users.list())
+    elif args.action == "delete":
+        if not args.id:
+            print("Erro: --id é necessário para deletar um usuário.")
+        else:
+            result = api.delete(args.id)
+            print(result)
 
-    elif args.comando == "read":
-        print(users.read(args.id))
-
-    elif args.comando == "create":
-        data = {"name": args.name, "email": args.email}
-        print(users.create(data))
-
-    elif args.comando == "update":
-        data = {"name": args.name, "email": args.email}
-        print(users.update(args.id, data))
-
-    elif args.comando == "delete":
-        print(users.delete(args.id))
-
-if __name__ == "__main__":
-    main()
+else:
+    print(f"Erro: {e}")
