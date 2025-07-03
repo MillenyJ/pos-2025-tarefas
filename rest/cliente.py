@@ -47,6 +47,3 @@ if True:
         else:
             result = api.delete(args.id)
             print(result)
-
-else:
-    print(f"Erro: {e}")
