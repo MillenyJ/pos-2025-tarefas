@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Twilight Sparkle",
+    "gender": "Female",
+    "kind": "Alicorn",
+    "residence": "Ponyville",
+    "image": "/images/twilight.png"
+  },
+  {
+    "name": "Rainbow Dash",
+    "gender": "Female",
+    "kind": "Pegasus",
+    "residence": "Cloudsdale",
+    "image": "/images/rainbow.png"
+  },
+  {
+    "name": "Pinkie Pie",
+    "gender": "Female",
+    "kind": "Earth Pony",
+    "residence": "Ponyville",
+    "image": "/images/pinkie.png"
+  },
+  {
+    "name": "Fluttershy",
+    "gender": "Female",
+    "kind": "Pegasus",
+    "residence": "Ponyville",
+   "image": "/images/fluttershy.png"
+  },
+  {
+    "name": "Rarity",
+    "gender": "Female",
+    "kind": "Unicorn",
+    "residence": "Ponyville",
+    "image": "/images/rarity.png"
+  },
+  {
+    "name": "Applejack",
+    "gender": "Female",
+    "kind": "Earth Pony",
+    "residence": "Sweet Apple Acres",
+    "image": "/images/applejack.png"
+  },
+  {
+    "name": "Spike",
+    "gender": "Male",
+    "kind": "Dragon",
+    "residence": "Ponyville",
+    "image": "/images/spike.png"
+  },
+  {
+    "name": "Princess Celestia",
+    "gender": "Female",
+    "kind": "Alicorn",
+    "residence": "Canterlot",
+    "image": "/images/celestia.png"
+  },
+  {
+    "name": "Princess Luna",
+    "gender": "Female",
+    "kind": "Alicorn",
+    "residence": "Canterlot",
+    "image": "/images/luna.png"
+  },
+  {
+    "name": "Princess Cadance",
+    "gender": "Female",
+    "kind": "Alicorn",
+    "residence": "Crystal Empire",
+    "image": "/images/cadance.png"
+  },
+  {
+    "name": "Shining Armor",
+    "gender": "Male",
+    "kind": "Unicorn",
+    "residence": "Crystal Empire",
+    "image": "/images/shining.png"
+  },
+  {
+    "name": "Trixie Lulamoon",
+    "gender": "Female",
+    "kind": "Unicorn",
+    "residence": "Equestria",
+    "image": "/images/trixie.png"
+  },
+  {
+    "name": "Starlight Glimmer",
+    "gender": "Female",
+    "kind": "Unicorn",
+    "residence": "Ponyville",
+    "image": "/images/starlight.png"
+  }
+]
